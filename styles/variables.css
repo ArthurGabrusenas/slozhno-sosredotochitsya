@@ -1,4 +1,14 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --color-light: #ff8dcb;
+  --header-color: #db00ff;
+  --bg-color: #000028;
+  --title-color: #000028;
+  --text-color: #f1b2ce;
+  --text-shadow: #ff0070;
+  --decor: #ff0070;
+  --title-color-sub: #ff0070;
+  --accent-color: #ff0070;
+  --link: #ff0070;
+  --focus-color: #ff0070;
+  --hover: rgba(255, 0, 112, 0.4);
+}

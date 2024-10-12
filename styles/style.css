@@ -51,8 +51,11 @@
   font-size: 18px;
   font-style: normal;
   line-height: 23.4px;
-  background-color: var(--accent-color, #ff0070);
   max-inline-size: 491px;
+}
+
+.title-decor {
+  background-color: var(--accent-color, #ff0070);
 }
 
 .header__theme-menu-button {
@@ -175,6 +178,12 @@
   line-height: 23.4px;
 }
 
+.section__title__galeria {
+  grid-column: span 1;
+  margin-block-end: 20px;
+  color: var(--title-color);
+}
+
 .section__title_why {
   grid-column: span 1;
   grid-row: span 2;
@@ -184,11 +193,14 @@
   margin-block-end: 10px;
   color: var(--title-color);
   font-family: "IBM Plex Mono", monospace;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: 23.4px;
-  background-color: var(--accent-color);
+}
+
+.section__subtitle__bold {
+  font-weight: 700;
 }
 
 .section__paragraf {
@@ -231,10 +243,6 @@
 
 .subtitle__goldfish {
   margin-block-end: 20px;
-}
-
-.section__subtitle_card {
-  font-weight: 400;
 }
 
 .article_card {
@@ -331,10 +339,6 @@
     justify-content: center;
   }
 
-  .header__title__text {
-    text-shadow: 4px 4px 0px var(--accent-color, #ff8dcb);
-  }
-
   .text__content {
     max-inline-size: 364px;
   }
@@ -359,10 +363,6 @@
 
   .article_card {
     gap: initial;
-  }
-
-  .footer__title {
-    text-shadow: 2px 2px 0px var(--accent-color, #ff8dcb);
   }
 }
 
